@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.login-container,
+.main-container {
+    display: none;
+}
+
+.login-container.active {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.main-container.active {
+    display: flex;
+}
+
+h1 {
+    color: #d87c6a;
+    font-size: 2em;
+    margin-bottom: 50px;
+}
+
+.login-box {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-box h2 {
+    margin-bottom: 20px;
+}
+
+.google-signin,
+.create-account {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.google-signin {
+    background-color: #db4a39;
+    color: white;
+}
+
+.create-account {
+    background-color: #4a90e2;
+    color: white;
+}
+
+p {
+    margin-top: 20px;
+}
+
+p a {
+    color: #4a90e2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #333;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.logo {
+    padding: 20px;
+    font-size: 1.5em;
+    text-align: center;
+    border-bottom: 1px solid #444;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-list li {
+    padding: 15px 20px;
+}
+
+.nav-list li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.nav-list li:hover {
+    background-color: #444;
+}
+
+.user-settings {
+    padding: 20px;
+    border-top: 1px solid #444;
+    text-align: center;
+}
+
+.logout-button {
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    background-color: #d87c6a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    text-align: center;
+}
+
+.logout-button:hover {
+    background-color: #c66b59;
+}
+
+.content {
+    flex-grow: 1;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-box {
+    text-align: center;
+}
+
+.main-box img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.main-box p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
