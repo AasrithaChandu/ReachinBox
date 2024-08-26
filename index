@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReachInbox Assignment</title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <!-- Login Interface -->
+    <div class="login-container active" id="loginContainer">
+        <h1>Login / Add Mail</h1>
+        <div class="login-box">
+            <h2>Create a new account</h2>
+            <button class="google-signin" onclick="googleSignIn()">Sign Up with Google</button>
+            <button class="create-account">Create an Account</button>
+            <p>Already have an account? <a href="#" onclick="signIn()">Sign in</a></p>
+        </div>
+    </div>
+
+    <!-- Main Interface (After Login) -->
+    <div class="main-container" id="mainContainer">
+        <div class="sidebar">
+            <div class="logo">ReachInbox</div>
+            <ul class="nav-list">
+                <li><a href="#">Inbox</a></li>
+                <li><a href="#">Sent</a></li>
+                <li><a href="#">Drafts</a></li>
+                <li><a href="#">Trash</a></li>
+            </ul>
+            <div class="user-settings">
+                <span>Tim's Workspace</span>
+                <button class="logout-button" onclick="logout()">Logout</button>
+            </div>
+        </div>
+        <div class="content">
+            <div class="main-box">
+                <img src="mail-icon.png" alt="Mailbox Icon">
+                <p>It's the beginning of a legendary sales pipeline</p>
+                <p>When you have inbound E-mails, you'll see them here</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
